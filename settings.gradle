@@ -1,2 +1,3 @@
+include ':commonsdk'
 include ':app'
 rootProject.name = "FdAndroidStudy"
