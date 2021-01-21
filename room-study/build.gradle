@@ -7,7 +7,7 @@ android {
     buildToolsVersion rootProject.ext.android["buildToolsVersion"]
 
     defaultConfig {
-        applicationId "com.example.fdandroidstudy"
+        applicationId "com.example.room_study"
         minSdkVersion rootProject.ext.android["minSdkVersion"]
         targetSdkVersion rootProject.ext.android["targetSdkVersion"]
         versionCode rootProject.ext.android["versionCode"]
@@ -27,4 +27,5 @@ android {
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar", '*.aar'])
     implementation project(":commonsdk")
+
 }
