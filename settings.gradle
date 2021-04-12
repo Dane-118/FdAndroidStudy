@@ -1,3 +1,5 @@
+include ':view-study'
+include ':kotlin-study'
 include ':room-study'
 include ':commonsdk'
 include ':app'
