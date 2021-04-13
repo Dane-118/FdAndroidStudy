@@ -19,7 +19,8 @@ class StudyActivity1 : AppCompatActivity() {
 
     private val list = arrayListOf<PageModel>(
         PageModel(R.string.title_draw_color, R.layout.stydey_draw_color),
-        PageModel(R.string.title_draw_circle, R.layout.stydey_draw_circle)
+        PageModel(R.string.title_draw_circle, R.layout.stydey_draw_circle),
+        PageModel(R.string.title_draw_path, R.layout.stydey_draw_path)
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {

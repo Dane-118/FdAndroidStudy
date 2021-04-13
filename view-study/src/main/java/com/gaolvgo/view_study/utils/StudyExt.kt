@@ -17,3 +17,11 @@ fun Int.px2dp(): Float {
         Resources.getSystem().displayMetrics
     )
 }
+
+fun Int.px2dpInt(): Int {
+    return TypedValue.applyDimension(
+        TypedValue.COMPLEX_UNIT_DIP,
+        this.toFloat(),
+        Resources.getSystem().displayMetrics
+    ).toInt()
+}
