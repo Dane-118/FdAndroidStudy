@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">View-study</string>
     <string name="view_study_1_1">自定义 View 1-1 绘制基础</string>
+    <string name="view_study_1_2">自定义 View 1-2 Paint 详解</string>
+    <string name="view_study_1_3">自定义 View 1-3 drawText() 文字的绘制</string>
     <string name="title_draw_color">drawColor()</string>
     <string name="title_draw_circle">drawCircle()</string>
     <string name="title_draw_rect">drawRect()</string>
@@ -12,4 +14,8 @@
     <string name="title_draw_path">drawPath()</string>
     <string name="title_draw_histogram">直方图</string>
     <string name="title_draw_pie_chart">饼图</string>
+    <string name="title_paint_one">paint_1</string>
+    <string name="title_paint_two">paint_2</string>
+    <string name="title_paint_three">paint_3</string>
+    <string name="title_paint_four">paint_4</string>
 </resources>

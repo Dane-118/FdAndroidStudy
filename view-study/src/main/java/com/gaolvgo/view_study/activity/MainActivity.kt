@@ -16,5 +16,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this,StudyActivity1::class.java))
         }
 
+        btn_view_study_1_2?.setOnClickListener {
+            startActivity(Intent(this,StudyActivity2::class.java))
+        }
+
+        btn_view_study_1_3?.setOnClickListener {
+            startActivity(Intent(this,StudyActivity3::class.java))
+        }
     }
 }

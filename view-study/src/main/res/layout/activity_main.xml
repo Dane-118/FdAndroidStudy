@@ -14,4 +14,18 @@
         android:text="@string/view_study_1_1"
         />
 
+    <Button
+        android:id="@+id/btn_view_study_1_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/view_study_1_2"
+        />
+
+    <Button
+        android:id="@+id/btn_view_study_1_3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/view_study_1_3"
+        />
+
 </LinearLayout>
