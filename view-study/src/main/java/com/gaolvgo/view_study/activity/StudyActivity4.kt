@@ -11,15 +11,14 @@ import com.gaolvgo.view_study.bean.PageModel
 import kotlinx.android.synthetic.main.activity_study1.*
 
 /**
- * 描述：自定义 View 1-3 drawText() 文字的绘制
+ * 描述：自定义 View 1-4 Canvas 对绘制的辅助
  * @author fangdongdong
  * @date   2021/4/13 16:38
  */
-class StudyActivity3 : AppCompatActivity() {
+class StudyActivity4 : AppCompatActivity() {
 
     private val list = arrayListOf<PageModel>(
-        PageModel(R.string.title_paint_one, R.layout.stydey_text_one),
-        PageModel(R.string.title_paint_two, R.layout.stydey_text_two),
+        PageModel(R.string.title_paint_one, R.layout.stydey_canvas_one),
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -41,7 +40,7 @@ class StudyActivity3 : AppCompatActivity() {
         }
 
         override fun instantiateItem(container: ViewGroup, position: Int): Any {
-            val view = View.inflate(this@StudyActivity3, list[position].sampleLayoutRes, null)
+            val view = View.inflate(this@StudyActivity4, list[position].sampleLayoutRes, null)
             (container as ViewPager).addView(view)
             return view
         }
