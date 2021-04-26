@@ -2,7 +2,6 @@ package com.gaolvgo.view_study.utils
 
 import android.content.res.Resources
 import android.util.TypedValue
-import androidx.core.content.res.TypedArrayUtils
 
 /**
  * 描述：

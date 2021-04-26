@@ -32,6 +32,8 @@ class StudyCanvasOne(context: Context?, attrs: AttributeSet?) : View(context, at
             Path.Direction.CW
         )
         path2.fillType = Path.FillType.INVERSE_WINDING
+        val str = ""
+
     }
 
     @SuppressLint("ResourceAsColor", "DrawAllocation")
