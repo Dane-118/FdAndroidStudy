@@ -5,6 +5,7 @@
     <string name="view_study_1_3">自定义 View 1-3 drawText() 文字的绘制</string>
     <string name="view_study_1_4">自定义 View 1-4 Canvas 对绘制的辅助</string>
     <string name="view_study_1_5">自定义 View 1-5 绘制顺序</string>
+    <string name="view_study_1_6">自定义 View 1-6：属性动画 Property Animation（上手篇）</string>
     <string name="title_draw_color">drawColor()</string>
     <string name="title_draw_circle">drawCircle()</string>
     <string name="title_draw_rect">drawRect()</string>
@@ -21,4 +22,5 @@
     <string name="title_paint_three">paint_3</string>
     <string name="title_paint_four">paint_4</string>
     <string name="image_size">尺寸：%1$d x %2$d</string>
+    <string name="animate">动画</string>
 </resources>
