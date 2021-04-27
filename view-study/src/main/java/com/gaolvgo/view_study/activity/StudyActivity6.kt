@@ -19,6 +19,11 @@ class StudyActivity6 : AppCompatActivity() {
 
     private val list = arrayListOf<PageModel>(
         PageModel(R.string.title_paint_one, R.layout.stydey_one_6),
+        PageModel(R.string.title_paint_two, R.layout.stydey_two_6),
+        PageModel(R.string.title_paint_three, R.layout.stydey_three_6),
+        PageModel(R.string.title_paint_four, R.layout.stydey_four_6),
+        PageModel(R.string.title_paint_five, R.layout.stydey_five_6),
+        PageModel(R.string.title_paint_six, R.layout.stydey_six_6),
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {

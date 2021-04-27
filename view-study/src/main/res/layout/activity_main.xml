@@ -40,7 +40,13 @@
     <Button
         android:id="@+id/btn_view_study_1_6"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:text="@string/view_study_1_6" />
+
+    <Button
+        android:id="@+id/btn_view_study_1_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_study_1_7" />
 
 </LinearLayout>
