@@ -15,6 +15,7 @@
         <activity android:name=".activity.StudyActivity4"/>
         <activity android:name=".activity.StudyActivity5"/>
         <activity android:name=".activity.StudyActivity6"/>
+        <activity android:name=".activity.StudyActivity7"/>
         <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
