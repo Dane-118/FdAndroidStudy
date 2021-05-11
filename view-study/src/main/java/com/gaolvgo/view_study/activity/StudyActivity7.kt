@@ -18,7 +18,7 @@ import kotlinx.android.synthetic.main.activity_study1.*
 class StudyActivity7 : AppCompatActivity() {
 
     private val list = arrayListOf<PageModel>(
-        PageModel(R.string.title_paint_one, R.layout.stydey_one_6),
+        PageModel(R.string.title_paint_one, R.layout.stydey_seven_1),
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {

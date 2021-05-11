@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gaolvgo.view_study.widget.study7.StudySeven1 xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="36dp"
+        android:background="@color/colorAccent" />
+
+    <ProgressBar
+        android:id="@+id/progress_Bar"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:max="100"
+        android:progress="20"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/animateBt"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:text="@string/animate"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/animateBt2"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:text="@string/animate"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/animateBt3"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:text="@string/animate"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+</com.gaolvgo.view_study.widget.study7.StudySeven1>

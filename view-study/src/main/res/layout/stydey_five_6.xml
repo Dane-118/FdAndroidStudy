@@ -5,11 +5,10 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
         android:layout_marginStart="48dp"
-        android:layout_marginTop="36dp"
-        android:src="@drawable/music" />
+        android:layout_marginTop="36dp" />
 
     <Button
         android:id="@+id/animateBt"

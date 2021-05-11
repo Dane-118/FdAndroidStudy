@@ -51,7 +51,7 @@ class StudyPaintTwo(context: Context?, attrs: AttributeSet?) : View(context, att
 
 
         paint.reset()
-        val saved = canvas.saveLayer(null, null, Canvas.ALL_SAVE_FLAG)
+        val saved = canvas.saveLayer(null, paint)
         canvas.drawBitmap(bitmap1, 100f, heightSpan * 4, paint)
         paint.xfermode = PorterDuffXfermode(PorterDuff.Mode.DST_OUT)
         canvas.drawBitmap(bitmap2, 100f, heightSpan * 4, paint)
