@@ -39,5 +39,9 @@ class MainActivity : AppCompatActivity() {
         btn_view_study_1_7?.setOnClickListener {
             startActivity(Intent(this,StudyActivity7::class.java))
         }
+
+        btn_view_study_1_8?.setOnClickListener {
+            startActivity(Intent(this,StudyActivity8::class.java))
+        }
     }
 }
